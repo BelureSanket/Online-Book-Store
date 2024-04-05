@@ -1,0 +1,47 @@
+#container{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:brown;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;    
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+}
+html{
+    height:100%
+}
+.bg {
+    background-image: url("main.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1{
+    padding-left: 35%;
+    font-size: 100px;
+}
+
+
+
+h1 {
+  font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  
+}

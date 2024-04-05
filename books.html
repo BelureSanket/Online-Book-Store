@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="second.css">
+    <style>
+        .add{
+            height: 30px;
+            width: 30px;
+        }
+        .next{
+            height: 60px;
+            width: 200px;
+            background-color:cadetblue;
+        }
+    </style>
+</head>
+<body class="back" style="background-repeat: repeat-y; font-weight: 1000; font-size: larger;">
+    <header>
+		<div id="container">
+			<img src="logo.jpg" alt="" height="60px">
+			<a href="index.html" style="font-size:large;">Home</a>
+			<a href="registration.html" style="font-size:large;">Register</a>
+			<a href="login.html" style="font-size:large;">Login</a>
+            <a href="books.html" style="font-size:large;">Books</a>
+			<a href="about.html" style="font-size:large;">Contact Us</a>
+			
+		</div>
+	</header>
+    <h2 align="center">Catalogue</h2>
+    <table border="1px" style="background-color: rgba(255, 255, 255, 70%);" cellpadding="80px">
+        <tr>
+            <th>No</th>
+            <th>Book</th>
+            <th>Author</th>
+            <th colspan="2">Image</th>
+            <th>Buy</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SOUL</td>
+            <td>Olivia Wilson</td>
+            <td colspan="2"><img src="img1.jpg" alt="1"></td>
+            <td><form action="cart.html">
+                <input type="checkbox" value="ABC" class="add">
+               
+            </form></td>
+        </tr>
+        <tr><td>2</td>
+            <td>Different Winter</td>
+            <td>Mia Jackson</td>
+            <td colspan="2"><img src="img2.jpg" alt="1"></td>
+            <td><form action="cart.html">
+                <input type="checkbox" value="KLM" class="add">
+               
+            </form></td>
+        </tr>
+
+        <tr><td>3</td>
+            <td>Do epic shit</td>
+            <td>Ankur Warikoo</td>
+            <td colspan="2"><img src="img3.jpg" alt="1" height="180" width="150"></td>
+            <td><form action="cart.html">
+                <input type="checkbox" value="KLM" class="add">
+               
+            </form></td>
+        </tr>
+
+        <tr><td>4</td>
+            <td>A Song of Ice & Fire</td>
+            <td>George RR Martin</td>
+            <td colspan="2"><img src="img4.jpg" alt="1" height="180" width="150"></td>
+            <td><form action="cart.html">
+                <input type="checkbox" value="KLM" class="add">
+               
+            </form></td>
+        </tr>
+            
+    </table>
+    <div style="display: flex;
+    justify-content: center;">
+        <form action="cart.html" >
+            <input type="submit" value="add to cart" class="next">
+        </form>
+    </div>
+
+    <h2></h2>
+    
+</body>
+</html>

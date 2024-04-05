@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payments</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="second.css">
+</head>
+<body class="back" >
+    <header>
+		<div id="container">
+			<img src="logo.jpg" alt="" height="60px">
+			<a href="index.html" style="font-size:large;">Home</a>
+			<a href="registration.html" style="font-size:large;">Register</a>
+			<a href="login.html" style="font-size:large;">Login</a>
+            <a href="books.html" style="font-size:large;">Books</a>
+			<a href="about.html" style="font-size:large;">Contact Us</a>
+			
+		</div>
+	</header>
+    <br><br>
+    
+        <div >
+            <div style="height: 500px;width: 500px;display: flex; justify-content: center;align-items: center; font-size: xx-large;">
+                <form action="order.html">
+                    <h3>Select payment method</h3>
+                    <table >
+                        <tr>
+                            <td>UPI <input type="radio" name="payment">
+                                <br>
+                                <input type="text" placeholder="enter upi id">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Debit card <input type="radio" name="payment">
+                                <br>
+                                <input type="text" placeholder="enter card no">
+                                <br>
+                                <input type="text" placeholder="enter cvv">
+                            </td>
+                        </tr>
+                        <tr><td>Credit card <input type="radio" name="payment">
+                            <br>
+                                <input type="text" placeholder="enter card no">
+                                <br>
+                                <input type="text" placeholder="enter cvv">
+                        </td></tr>
+                        <tr align="center">
+                            <td><input type="submit" value="pay" style="background-color:cadetblue;">  </td>
+                        </tr>
+                    </table>    
+                    <br>
+                          
+                </form>
+            </div>
+        </div>
+    
+</body>
+</html>
+
